@@ -1,8 +1,5 @@
-use iced::{
-    self,
-    widget::{container, text},
-    Element, Length, Task, Theme,
-};
+use iced::widget::{container, text};
+use iced::{Element, Length, Task, Theme};
 
 pub fn main() -> iced::Result {
     iced::application("MyApp", MyApp::update, MyApp::view)
